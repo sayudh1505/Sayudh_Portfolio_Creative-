@@ -52,7 +52,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
 					<TextGenerateEffect
-						words={`Hi! I'm Sayudh Khatavkar\nAutomating Creative Production\nwith Generative AI & Python`}
+						words={`Hi! I'm Sayudh Khatavkar\nCreative Analyst`}
 						className="text-center text-[40px] md:text-5xl lg:text-6xl"
 					/>
 

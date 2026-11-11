@@ -56,6 +56,18 @@ const Experience = () => {
 								<p className="text-white-100 mt-3 font-semibold text-sm md:text-base leading-relaxed">
 									{card.desc}
 								</p>
+								{card.tools && card.tools.length > 0 && (
+									<div className="flex flex-wrap gap-2 mt-4">
+										{card.tools.map((tool: string, idx: number) => (
+											<span
+												key={idx}
+												className="text-xs text-purple font-medium bg-purple/10 border border-purple/20 px-2.5 py-1 rounded-md"
+											>
+												{tool}
+											</span>
+										))}
+									</div>
+								)}
 							</div>
 						</div>
 					</Button>

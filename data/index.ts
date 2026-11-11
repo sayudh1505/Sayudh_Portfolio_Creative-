@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
 	{
 		id: 1,
-		title: "I build end-to-end automated pipelines that turn prompts and content strategies into high-quality AI videos",
+		title: " Bridges the gap between data, marketing performance, and visual design",
 		description: "",
 		className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
 		imgClassName: "w-full h-full",
@@ -173,21 +173,33 @@ export const companies = [
 export const workExperience = [
 	{
 		id: 1,
+		title: "AI Automation and Operations Associate",
+		company: "Jio Creative Labs (on-site)",
+		desc: "Turned client briefs and brand requirements into visual and video concepts, and presented them to clients as creative proposals. Built ComfyUI workflows for image generation and image-to-video, keeping composition, visual quality and character consistency across assets. Designed testing and evaluation workflows to check AI outputs for quality, consistency and fit with the requirements.",
+		className: "md:col-span-2",
+		thumbnail: "/exp3.svg",
+		timeline: "July 2026 – October 2026",
+		tools: ["Canva", "Python", "Stable Diffusion", "Google Agentic Platform"],
+	},
+	{
+		id: 2,
+		title: "Data Analyst Intern",
+		company: "LogisticsNow Pvt Ltd",
+		desc: "Automated report generation and content summary emails with n8n and Python workflows. Streamlined extraction pipelines for over 100K logistics records, reducing reporting cycles by 30%.",
+		className: "md:col-span-2",
+		thumbnail: "/exp2.svg",
+		timeline: "January 2026 – May 2026",
+		tools: ["Python", "n8n", "Power BI"],
+	},
+	{
+		id: 3,
 		title: "Research & Strategy Intern",
 		company: "Skylark Lifestyles Pvt. Ltd. – Aeronext Solutions",
 		desc: "Engineered passenger flow predictions and comparison models, developed cost-saving operational dashboards, and compiled implementation plans for pilot project deployments.",
 		className: "md:col-span-2",
 		thumbnail: "/exp1.svg",
 		timeline: "June 2025 – July 2025",
-	},
-	{
-		id: 2,
-		title: "Automation Intern",
-		company: "LogisticsNow Pvt Ltd",
-		desc: "Automated report generation and content summary emails with n8n and Python workflows. Streamlined extraction pipelines for over 100K logistics records, reducing reporting cycles by 30%.",
-		className: "md:col-span-2",
-		thumbnail: "/exp2.svg",
-		timeline: "January 2026 – May 2026",
+		tools: ["Python", "Power BI"],
 	},
 ];
 
